@@ -1,0 +1,126 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 20px;
+  color: violet;
+}
+#searchInput {
+  width: 50%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pagination button {
+  margin: 0 5px;
+}
+#pagination button:hover {
+  background-color: violet;
+  color: whitesmoke;
+}
+#pagination button.active {
+  background-color: violet;
+  color: white;
+}
+
+#deleteSelectedBtn {
+  margin-top: 30px;
+  /* Let the button auto-size based on its content */
+}
+
+#deleteSelectedBtn:hover {
+  background-color: rgb(231, 122, 122);
+  color: white;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.actions-column button {
+  margin-right: 0;
+}
+
+.userCheckbox {
+  align-self: center;
+}
+
+td input[type="checkbox"] {
+  display: block;
+  margin: 0 auto;
+}
+
+td:first-child {
+  width: 20px; /* Adjust the width as needed */
+}
+
+.edit-icon {
+  color: #333; /* Set the default color for the icons */
+  /* Set the icon size */
+}
+
+/* Hover effect to change the color on hover */
+.edit-icon:hover {
+  color: violet; /* Change to the desired hover color */
+}
+
+.delete-icon {
+  color: #333; /* Set the default color for the icons */
+  /* Set the icon size */
+}
+
+/* Hover effect to change the color on hover */
+.delete-icon:hover {
+  color: red; /* Change to the desired hover color */
+}
+
+#action {
+  text-align: center;
+}
